@@ -28,10 +28,10 @@ def type3moleCAL():
 
 choice=int(input('Please select a function:\n1.Content Information\n2.Calculator\n3.Quiz\n'))
 
-if choice==1: #Content Information#
+if choice==1: 
     print('Go to: http://gg.gg/MoleConcept')
 
-elif choice==2: #Calculator#
+elif choice==2: 
     type_cal=int(input('Please select the formula which you wish to use:\n1.Moles=Particles/Avogadros Constant\n2.Moles=Mass/Molar Mass\n3.Moles=Volume of Gas/24\n'))
 
     if type_cal==1: #Moles=Particles/Avogadros Constant Calculator#
@@ -75,9 +75,9 @@ elif choice==2: #Calculator#
             final_input=float(input('Please input Volume of Gas in dm3:'))
             print('Number of Moles=',type3moleCAL())
 
-elif choice==3: #Quiz#
+elif choice==3: 
     diff=int(input('Select Quiz Difficulty:\n1.Novice\n2.Intermediate\n3.Advanced\n'))
-    if diff==1: #Novice Difficulty#
+    if diff==1: 
                   
         question1=int(input('Question 1: How many moles are there in 2.35 x 10**23 neon atoms?\n1.0.432\n2.0.392\n3.0.391\n'))
         if question1==2:
