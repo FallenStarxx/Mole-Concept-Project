@@ -6,24 +6,31 @@
 result=0
 
 def type1moleCAL(x):
+    
     return x*(6.00*(10**23))
 
 def type1partCAL(x):
+    
     return x/(6.00*(10**23))
 
 def type2massCAL():
+    
     return molarmass*moles
 
 def type2molarmassCAL():
+    
     return mass/moles
 
 def type2moleCAL():
+    
     return mass/molarmass
 
 def type3gasCAL():
+    
     return final_input*24
 
 def type3moleCAL():
+    
     return final_input/24
 
 choice=int(input('Please select a function:\n1.Content Information\n2.Calculator\n3.Quiz\n'))
