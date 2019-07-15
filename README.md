@@ -39,6 +39,7 @@ if choice==1:
     print('Go to: http://gg.gg/MoleConcept')
 
 elif choice==2: 
+    
     type_cal=int(input('Please select the formula which you wish to use:\n1.Moles=Particles/Avogadros Constant\n2.Moles=Mass/Molar Mass\n3.Moles=Volume of Gas/24\n'))
 
     if type_cal==1: #Moles=Particles/Avogadros Constant Calculator#
