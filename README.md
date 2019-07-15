@@ -76,7 +76,9 @@ elif choice==2:
             print('Number of Moles=',type3moleCAL())
 
 elif choice==3: 
+    
     diff=int(input('Select Quiz Difficulty:\n1.Novice\n2.Intermediate\n3.Advanced\n'))
+    
     if diff==1: 
                   
         question1=int(input('Question 1: How many moles are there in 2.35 x 10**23 neon atoms?\n1.0.432\n2.0.392\n3.0.391\n'))
